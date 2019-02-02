@@ -11,6 +11,7 @@ h1{
   color: #cc0000;
   font-family: myFirstFont;
   font-size: 72px;
+  animation-duration: 5s;
 }
 
 body{
