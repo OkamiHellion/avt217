@@ -1,0 +1,23 @@
+body{
+    background-image: url("../../css/background.jpg");
+    background-size:cover;
+    width: inherit; height: inherit;
+    background-repeat: no-repeat;
+    background-color: black;
+    margin:auto;
+    padding: 350px;
+    color: white;
+  }
+
+div{
+  width: 600px;
+  margin: 50px auto;
+}
+
+h1{
+  text-align: center;
+}
+
+h2{
+  text-align: center;
+}
