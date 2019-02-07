@@ -1,11 +1,7 @@
 body{
-    background-image: url("../../css/background.jpg");
-    background-size:cover;
-    width: inherit; height: inherit;
-    background-repeat: no-repeat;
     background-color: black;
     margin:auto;
-    padding: 350px;
+    padding: 50 px;
     color: white;
   }
 
