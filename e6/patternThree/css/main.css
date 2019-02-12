@@ -1,0 +1,32 @@
+body{
+  background-color:  #70dbdb;
+  margin: 0;
+  padding: 0;
+}
+
+div{
+  width: 100px;
+  height: 1000px;
+  background-color: white;
+  float: left;
+}
+
+.one{
+  background-color: black;
+}
+
+.two{
+  background-color: white;
+}
+
+.three{
+  background-color: red;
+}
+
+.four{
+  background-color: blue;
+}
+
+.five{
+  background-color: grey;
+}

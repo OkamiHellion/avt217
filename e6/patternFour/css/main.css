@@ -1,0 +1,32 @@
+body{
+  background-color:  #70dbdb;
+  margin: 0;
+  padding: 0;
+}
+
+div{
+  width: 1300px;
+  height: 100px;
+  background-color: white;
+  float: left;
+}
+
+.one{
+  background-color: pink;
+}
+
+.two{
+  background-color: yellow;
+}
+
+.three{
+  background-color: lime;
+}
+
+.four{
+  background-color: skyblue;
+}
+
+.five{
+  background-color: orange;
+}
