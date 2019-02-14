@@ -34,3 +34,16 @@ div{
   position: relative;
   top: 25%;
 }
+
+.heart{
+  margin: auto;
+  padding: 300px;
+  text-align: center;
+  position: relative;
+  z-index: -1;
+}
+
+#whiteHeart{
+  color: #F6A3AD;
+  font-size: 72px;
+}
