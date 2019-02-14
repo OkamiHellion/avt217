@@ -1,0 +1,36 @@
+body{
+  background-color: #FEF5BC;
+}
+
+iframe{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+p{
+  color: black;
+  font-family: helvetica;
+}
+
+div{
+  font-family: helvetica;
+}
+
+.center {
+  margin: auto;
+  padding: 10px;
+}
+
+.container{
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+  position: relative;
+  top: 25%;
+}
