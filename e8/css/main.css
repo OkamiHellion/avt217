@@ -45,6 +45,10 @@ div{
   z-index: -1;
 }
 
+.spaceMin{
+  line-height: 1px;
+}
+
 #whiteHeart{
   color: #F6A3AD;
   font-size: 72px;
