@@ -1,0 +1,17 @@
+body{
+  margin: 500px 0 0 0;
+  background-color: black;
+}
+
+a{
+  text-align: center;
+  font-family: helvetica;
+  color: white;
+  text-decoration: none;
+  transition: color 1s ease;
+}
+a:hover{
+  color: aquamarine;
+  text-decoration: line-through;
+  text-decoration-color: red;
+}
