@@ -1,0 +1,37 @@
+*{
+  box-sizing: border-box;
+  float: left;
+}
+
+.mainGrid{
+  width: 900px;
+  height: 1025px;
+  background-color: red;
+}
+
+.horiLine1{
+  width: 900px;
+  height: 100px;
+  background-color: red;
+  border: 5px solid white;
+}
+
+.horiLine2{
+  width: 900px;
+  height: 25px;
+  background-color: red;
+  border: 5px solid white;
+}
+
+.columnBox{
+  width: 900px;
+  height: 800px;
+  background-color: red;
+}
+
+.column{
+  width: 300px;
+  height: 800px;
+  background-color: red;
+  border: 5px solid white;
+}
