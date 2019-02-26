@@ -1,0 +1,44 @@
+*{
+  box-sizing: border-box;
+  float: left;
+}
+
+.main{
+  width: 950px;
+  height: 1200px;
+}
+
+.headerBox{
+  width: 950px;
+  height: 100px;
+  background-color: red;
+  border: 5px solid white;
+  margin-bottom: 75px;
+}
+
+.halfBox{
+  width: 950px;
+  height: 550px;
+  margin-bottom: 75px;
+}
+
+.topLeft{
+  width: 800px;
+  height: 500px;
+  background-color: red;
+  border: 5px solid white;
+}
+
+.topRight{
+  width: 150px;
+  height: 200px;
+  background-color: red;
+  border: 5px solid white;
+}
+
+.bottomLeft{
+  width: 800px;
+  height: 50px;
+  background-color: red;
+  border: 5px solid white;
+}
