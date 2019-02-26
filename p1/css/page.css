@@ -7,7 +7,16 @@ body {
   float: left;
   vertical-align: middle;
   margin: 2vw;
-  display: grid;
+}
+
+.normal{
+  color: white;
+  font-size: 50px;
+  position: relative;
+  width: 1000px;
+  margin-top: 20vw;
+  margin-left: 35vw;
+  vertical-align: middle;
 }
 
 .glitch {
@@ -26,17 +35,27 @@ body {
   position: relative;
   width: 1000px;
   margin-top: 20vw;
-  margin-left: 35vw;
+  margin-left: 30vw;
   vertical-align: middle;
 }
 
-#begin{
+#button{
   margin-top: 1vw;
   margin-left: 43vw;
 }
 
+#id{
+  color: red;
+}
+
 a{
-  color: #85e0e0;
+  color:   white;
+  text-decoration: none;
+  transition: color 1s ease;
+}
+
+a:hover{
+  color: red;
 }
 
 @keyframes noise-anim {
