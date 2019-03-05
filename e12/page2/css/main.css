@@ -1,0 +1,50 @@
+@font-face {
+  font-family: DINalt;
+  src: url(../../fonts/DINAlternateBold.ttf);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: Alte;
+  src: url(../../fonts/AlteHaasGroteskBold.ttf);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: Hansief;
+  src: url(../../fonts/Hansief.otf);
+  font-weight: bold;
+}
+
+.mainBox{
+  padding-top: 5vw;
+}
+
+.titleBox{
+  width: 675px;
+  height: 250px;
+  margin: 0 auto;
+  padding-top: 5vw;
+}
+
+h1{
+  font-family: Hansief;
+  margin: 0;
+}
+
+h2{
+  font-family: Alte;
+  font-size: 92px;
+  margin: 0;
+  line-height: 90%;
+}
+
+h3{
+  font-family: Hansief;
+  padding-left: 62%;
+  line-height: 5%;
+}
+
+#holmes{
+  padding-left: 37%;
+}
