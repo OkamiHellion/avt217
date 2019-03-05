@@ -1,0 +1,68 @@
+@font-face {
+  font-family: ParmaPetitItalic;
+  src: url(../../fonts/ParmaPetit-Italic.ttf);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: DINalt;
+  src: url(../../fonts/DINAlternateBold.ttf);
+  font-weight: bold;
+}
+
+.mainBox{
+  margin: 5vw auto 0;
+}
+
+.titleBox{
+  width: 500px;
+  height: 250px;
+  margin: 0 auto 0;
+  text-align: center;
+  padding-top: 5vw;
+}
+
+.chapterBox{
+  width: 300px;
+  height: 200px;
+  margin: 50px auto 0;
+}
+
+p{
+  margin: 3% auto 0;
+  padding: 0px 80px;
+  font-family: DINalt;
+  font-size: 14px;
+}
+
+h1{
+  font-family: ParmaPetitItalic;
+  font-size: 52px;
+}
+
+h2{
+  font-family: DINalt;
+  font-size: 42px;
+  line-height: 0;
+}
+
+h3{
+  font-family: DINalt;
+  font-size: 14px;
+  line-height: 0;
+}
+
+h4{
+  font-family: DINalt;
+  padding-left: 50px;
+  font-size: 22px;
+  margin: 0;
+}
+
+h5{
+  font-family: ParmaPetitItalic;
+  font-size: 20px;
+  padding-left: 85px;
+  line-height: 1.5;
+  margin: 0;
+}

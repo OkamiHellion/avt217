@@ -6,7 +6,7 @@ body {
 .container{
   float: left;
   vertical-align: middle;
-  margin: 2vw;
+  margin: 2vw auto 0;
 }
 
 .normal{
