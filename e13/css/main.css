@@ -1,0 +1,47 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    margin: auto;
+    padding: 50 px;
+    color: white;
+  }
+
+main{
+  width: 50vw;
+  margin: 50px auto;
+}
+
+h1,h2,li,p{
+  font-family: 'Roboto', sans-serif;
+}
+
+h1{
+  text-align: center;
+}
+
+h2{
+  text-align: center;
+}
+
+li{
+  color: red;
+}
+
+@media only screen and (min-width: 600px) {
+  body {
+    background-color: navy;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  body {
+    background-color: white;
+  }
+
+  h1,h2,li,p{
+    color: black;
+  }
+}
