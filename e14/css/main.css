@@ -3,10 +3,10 @@
 }
 
 body{
-    background-color: black;
+    background-color: #ffe900;
     margin: auto;
     padding: 50 px;
-    color: white;
+    color: black;
   }
 
 main{
@@ -14,12 +14,17 @@ main{
   margin: 50px auto;
 }
 
-h1,h2,li,p{
-  font-family: 'Roboto', sans-serif;
+h1,h2,li{
+  font-family: 'Pacifico', cursive;
+}
+
+p{
+  font-family: 'Quicksand', sans-serif;
 }
 
 h1{
-  text-align: center;
+  text-align: left;
+  font-size: 38px;
 }
 
 h2{
@@ -27,12 +32,19 @@ h2{
 }
 
 li{
-  color: red;
+  color: black;
 }
 
 @media only screen and (min-width: 600px) {
   body {
-    background-color: navy;
+    background-color: black;
+  }
+  h1,h2,li,p{
+    color: white;
+    font-family: 'VT323', monospace;
+  }
+  h1{
+    font-size: 72px;
   }
 }
 
@@ -43,5 +55,10 @@ li{
 
   h1,h2,li,p{
     color: black;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  h1{
+    font-size: 92px;
   }
 }
