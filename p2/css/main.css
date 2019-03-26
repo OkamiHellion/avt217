@@ -2,12 +2,17 @@
   box-sizing: border-box;
 }
 
-main{
-
+body{
+  background-color: white;
+  margin: 0;
 }
 
 .HeaderPicture{
-
+  background-image: url("../pictures/DSC_0077.png");
+  background-repeat: no-repeat;
+  height: 50vw;
+  background-color: black;
+  background-size: 100%;
 }
 
 .HumanSpaceFlightText{
@@ -35,37 +40,17 @@ main{
 }
 
 
-@media only screen and (max-width: 1200px) {
-  main{
-
+@media only screen and (min-width: 1200px) {
+  body{
+    background-color: white;
+    margin: 0;
   }
 
   .HeaderPicture{
-
-  }
-
-  .HumanSpaceFlightText{
-
-  }
-
-  .HumanSpaceFlightPic{
-
-  }
-
-  .ColdWarAviationText{
-
-  }
-
-  .ColdWarAviationPic{
-
-  }
-
-  .AppSatellitesText{
-
-  }
-
-  .AppSatellitesPic{
-
+    background-image: url("../pictures/DSC_0077.png");
+    background-repeat: no-repeat;
+    height: 25vw;
+    background-size: 100%;
   }
 
 }
