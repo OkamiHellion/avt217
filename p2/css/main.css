@@ -8,15 +8,19 @@ body{
 }
 
 .HeaderPicture{
-  background-image: url("../pictures/DSC_0077.png");
+  background-image: url("../pictures/headerpic.png");
   background-repeat: no-repeat;
-  height: 50vw;
+  height: 59.4vw;
   background-color: black;
   background-size: 100%;
 }
 
 .HumanSpaceFlightText{
-
+  background-image: url("../pictures/HumanSpaceFlight.png");
+  background-repeat: no-repeat;
+  height: 25vw;
+  background-color: black;
+  background-size: 100%;
 }
 
 .HumanSpaceFlightPic{
@@ -47,9 +51,9 @@ body{
   }
 
   .HeaderPicture{
-    background-image: url("../pictures/DSC_0077.png");
+    background-image: url("../pictures/headerpic.png");
     background-repeat: no-repeat;
-    height: 25vw;
+    height: auto 0;
     background-size: 100%;
   }
 
