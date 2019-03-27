@@ -10,21 +10,45 @@ body{
 .HeaderPicture{
   background-image: url("../pictures/headerpic.png");
   background-repeat: no-repeat;
+  height: 58vw;
+  background-color: black;
+  background-size: 100%;
+}
+
+.HumanSpaceFlightHeader{
+  background-image: url("../pictures/HumanSpaceFlight.png");
+  background-repeat: no-repeat;
+  height: 24.5vw;
+  background-color: black;
+  background-size: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.HumanSpaceFlightText{
+  margin-left: 5vw;
+  margin-right: 5vw;
+  font-family: alte;
+  font-size: 12pt;
+  padding-bottom: 2vw;
+}
+
+.HumanSpaceFlightPic{
+  background-image: url("../pictures/DSC_0147.png");
+  background-repeat: no-repeat;
   height: 59.4vw;
   background-color: black;
   background-size: 100%;
 }
 
-.HumanSpaceFlightText{
-  background-image: url("../pictures/HumanSpaceFlight.png");
+.ColdWarAviationHeader{
+  background-image: url("../pictures/header2.png");
   background-repeat: no-repeat;
-  height: 25vw;
+  height: 24.5vw;
   background-color: black;
   background-size: 100%;
-}
-
-.HumanSpaceFlightPic{
-
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .ColdWarAviationText{
@@ -43,8 +67,11 @@ body{
 
 }
 
+@media only screen and (min-width: 768px){
 
-@media only screen and (min-width: 1200px) {
+}
+
+@media only screen and (min-width: 1025px) {
   body{
     background-color: white;
     margin: 0;
@@ -57,4 +84,10 @@ body{
     background-size: 100%;
   }
 
+}
+
+@font-face {
+  font-family: alte;
+  src: url(fonts/AlteHaasGroteskRegular.ttf);
+  font-weight: lighter;
 }
