@@ -11,7 +11,7 @@ p{
   margin-left: 5vw;
   margin-right: 5vw;
   font-family: alte;
-  font-size: 14pt;
+  font-size: 18pt;
   padding-bottom: 2vw;
 }
 
@@ -37,6 +37,7 @@ br{
   background-size: 100%;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 4vw;
 }
 
 .HumanSpaceFlightText{
@@ -59,6 +60,7 @@ br{
   background-size: 100%;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 4vw;
 }
 
 .ColdWarAviationText{
@@ -81,6 +83,7 @@ br{
   background-size: 100%;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 4vw;
 }
 
 .AppSatellitesText{
@@ -101,6 +104,10 @@ br{
     margin: 0;
   }
 
+  .HumanSpaceFlightText, .ColdWarAviationText, .AppSatellitesText{
+    font-size: 16pt;
+  }
+
   .HeaderPicture{
     background-image: url("../pictures/headerpic.png");
     background-repeat: no-repeat;
@@ -118,7 +125,6 @@ br{
   }
 
   .HumanSpaceFlightText{
-    font-size: 18pt;
   }
 
   .HumanSpaceFlightPic{
@@ -134,7 +140,6 @@ br{
   }
 
   .ColdWarAviationText{
-    font-size: 18pt;
   }
 
   .ColdWarAviationPic{
@@ -150,7 +155,6 @@ br{
   }
 
   .AppSatellitesText{
-    font-size: 18pt;
   }
 
   .AppSatellitesPic{
@@ -159,10 +163,18 @@ br{
 
 }
 
+@media only screen and (min-width: 896px){
+
+}
+
 @media only screen and (min-width: 1025px) {
   body{
     background-color: white;
     margin: 0;
+  }
+
+  .HumanSpaceFlightText, .ColdWarAviationText, .AppSatellitesText{
+    font-size: 18pt;
   }
 
   .HSFContainer{
