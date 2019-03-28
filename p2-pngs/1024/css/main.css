@@ -1,0 +1,12 @@
+body{
+  margin: 0;
+}
+
+div{
+  background-repeat: no-repeat;
+  display: block;
+  background-image: url("../../pictures/1024.png");
+  background-size: 100%;
+  width: 1024px;
+  height: 408vw;
+}
