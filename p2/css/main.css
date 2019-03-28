@@ -7,16 +7,30 @@ body{
   margin: 0;
 }
 
+p{
+  margin-left: 5vw;
+  margin-right: 5vw;
+  font-family: alte;
+  font-size: 14pt;
+  padding-bottom: 2vw;
+}
+
+br{
+  display: block;
+  content:"";
+  margin-top:0;
+}
+
 .HeaderPicture{
   background-image: url("../pictures/headerpic.png");
   background-repeat: no-repeat;
-  height: 58vw;
+  height: 54vw;
   background-color: black;
   background-size: 100%;
 }
 
 .HumanSpaceFlightHeader{
-  background-image: url("../pictures/HumanSpaceFlight.png");
+  background-image: url("../pictures/header1.png");
   background-repeat: no-repeat;
   height: 24.5vw;
   background-color: black;
@@ -26,11 +40,7 @@ body{
 }
 
 .HumanSpaceFlightText{
-  margin-left: 5vw;
-  margin-right: 5vw;
-  font-family: alte;
-  font-size: 12pt;
-  padding-bottom: 2vw;
+
 }
 
 .HumanSpaceFlightPic{
@@ -56,7 +66,21 @@ body{
 }
 
 .ColdWarAviationPic{
+  background-image: url("../pictures/DSC_0077.png");
+  background-repeat: no-repeat;
+  height: 59.4vw;
+  background-color: black;
+  background-size: 100%;
+}
 
+.AppSatellitesHeader{
+  background-image: url("../pictures/header2.png");
+  background-repeat: no-repeat;
+  height: 24.5vw;
+  background-color: black;
+  background-size: 100%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .AppSatellitesText{
@@ -64,10 +88,74 @@ body{
 }
 
 .AppSatellitesPic{
-
+  background-image: url("../pictures/DSC_0167.png");
+  background-repeat: no-repeat;
+  height: 59.4vw;
+  background-color: black;
+  background-size: 100%;
 }
 
 @media only screen and (min-width: 768px){
+  body{
+    background-color: white;
+    margin: 0;
+  }
+
+  .HeaderPicture{
+    background-image: url("../pictures/headerpic.png");
+    background-repeat: no-repeat;
+    height: 59vw;
+    background-color: white;
+    background-size: 100%;
+  }
+
+  .HumanSpaceFlightHeader{
+    background-color: white;
+    background-size: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2vw;
+  }
+
+  .HumanSpaceFlightText{
+    font-size: 18pt;
+  }
+
+  .HumanSpaceFlightPic{
+
+  }
+
+  .ColdWarAviationHeader{
+    background-color: white;
+    background-size: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2vw;
+  }
+
+  .ColdWarAviationText{
+    font-size: 18pt;
+  }
+
+  .ColdWarAviationPic{
+
+  }
+
+  .AppSatellitesHeader{
+    background-color: white;
+    background-size: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2vw;
+  }
+
+  .AppSatellitesText{
+    font-size: 18pt;
+  }
+
+  .AppSatellitesPic{
+
+  }
 
 }
 
@@ -78,10 +166,42 @@ body{
   }
 
   .HeaderPicture{
-    background-image: url("../pictures/headerpic.png");
-    background-repeat: no-repeat;
-    height: auto 0;
-    background-size: 100%;
+  }
+
+  .HumanSpaceFlightHeader{
+
+  }
+
+  .HumanSpaceFlightText{
+
+  }
+
+  .HumanSpaceFlightPic{
+
+  }
+
+  .ColdWarAviationHeader{
+
+  }
+
+  .ColdWarAviationText{
+
+  }
+
+  .ColdWarAviationPic{
+
+  }
+
+  .AppSatellitesHeader{
+
+  }
+
+  .AppSatellitesText{
+
+  }
+
+  .AppSatellitesPic{
+
   }
 
 }
