@@ -1,0 +1,58 @@
+body{
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+h1{
+  margin: 0;
+  padding: 40vh 0 0 0;
+  text-align: center;
+  font-family: sans-serif;
+  text-transform: lowercase;
+  letter-spacing: 1px;
+  font-weight: bold;
+  font-size: 5em;
+  font-family: 'Noto Sans JP', sans-serif;
+  transition: all 2s ease;
+}
+
+.full{
+  width: 100vw;
+  height: 100vh;
+}
+
+#list-name{
+  background-color: skyblue;
+}
+
+#hat5{
+  background-color: grey;
+  transition: all 2s ease;
+}
+
+#hat4{
+  background-color: #ffff66;
+}
+
+#hat3{
+  background-color: grey;
+}
+
+#hat2{
+  background-color: grey;
+}
+
+#hat1{
+  background-color: grey;
+}
+
+.darkfont{
+  color: black;
+}
+
+.black{
+  background-color: black;
+  width: 50vw;
+  height: 50vh;
+}
