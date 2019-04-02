@@ -33,18 +33,39 @@ h1{
 
 #hat4{
   background-color: #ffff66;
+  color: #ffff66;
 }
 
 #hat3{
-  background-color: grey;
+  background-color: #ff3333;
 }
 
 #hat2{
-  background-color: grey;
+  background-color: #4db8ff;
 }
 
 #hat1{
-  background-color: grey;
+  background-color: #00cc99;
+}
+
+#number5{
+  cursor: pointer;
+}
+
+#number4{
+  cursor: pointer;
+}
+
+#number3{
+  cursor: pointer;
+}
+
+#number2{
+  cursor: pointer;
+}
+
+#number1{
+  cursor: pointer;
 }
 
 .darkfont{
@@ -53,6 +74,6 @@ h1{
 
 .black{
   background-color: black;
-  width: 50vw;
-  height: 50vh;
+  width: 100vw;
+  height: 100vh;
 }
