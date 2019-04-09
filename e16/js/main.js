@@ -8,10 +8,10 @@ $(document).ready(function()  {
     $('#number4').css('color', 'black');
   });
   $('#number3').click(function()  {
-
+    $('#number3').css('color', '#ff3333');
   });
   $('#number2').click(function()  {
-
+    $('#number2').css('font-family', 'Aerial');
   });
   $('#number1').click(function()  {
 

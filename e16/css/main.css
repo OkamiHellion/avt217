@@ -34,18 +34,23 @@ h1{
 #hat4{
   background-color: #ffff66;
   color: #ffff66;
+  transition: all 2s ease;
 }
 
 #hat3{
   background-color: #ff3333;
+  transition: all 2s ease;
 }
 
 #hat2{
   background-color: #4db8ff;
+  font-family: sans-serif;
+  transition: all 2s ease;
 }
 
 #hat1{
   background-color: #00cc99;
+  transition: all 2s ease;
 }
 
 #number5{
@@ -75,5 +80,11 @@ h1{
 .black{
   background-color: black;
   width: 100vw;
+  height: 100vh;
+}
+
+.hat2{
+  background-color: black;
+  width: 0vw;
   height: 100vh;
 }
