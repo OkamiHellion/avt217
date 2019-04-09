@@ -14,6 +14,7 @@ $(document).ready(function()  {
     $('#number2').css('font-family', 'Aerial');
   });
   $('#number1').click(function()  {
-
+    $('#hat1').toggleClass('hat1');
+    $('#number1').css('color', 'white');
   });
 });
