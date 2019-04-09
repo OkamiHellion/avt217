@@ -15,6 +15,6 @@ $(document).ready(function()  {
   });
   $('#number1').click(function()  {
     $('#hat1').toggleClass('hat1');
-    $('#number1').css('color', 'white');
+    $('#number1').css('display', 'none');
   });
 });
