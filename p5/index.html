@@ -2,15 +2,29 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Exercise 9 Hub</title>
+    <title>P5</title>
     <link href="css/main.css" rel="stylesheet">
     <link href="css/animate.min.css" rel="stylesheet">
   </head>
   <body>
     <div class="animated fadeInLeft duration-3s delay-1s">
-      <a href="https://twitter.com/messages/compose?recipient_id=2583414879"
-      class="twitter-dm-button" data-screen-name="@redhoodie23">
-      slide.</a>
+      <script>
+        var sites = [
+            'https://www.snapchat.com/add/redharlow23',
+            'https://www.instagram.com/gabe.c23/',
+            'https://twitter.com/messages/compose?recipient_id=2583414879',
+        ];
+
+        function randomSite() {
+            var i = parseInt(Math.random() * sites.length);
+            location.href = sites[i];
+          }
+      </script>
+      <a href="#" onclick="randomSite();">slide.</a>
     </div>
   </body>
 </html>
+
+<!-- https://www.snapchat.com/add/redharlow23 -->
+<!-- https://www.instagram.com/gabe.c23/ -->
+<!-- https://twitter.com/messages/compose?recipient_id=2583414879 -->
