@@ -1,0 +1,24 @@
+body{
+  margin: 300px 0 0 0;
+  background-color: black;
+}
+
+a{
+  text-align: left;
+  font-size: 52px;
+  font-family: Helvetica;
+  font-style: italic;
+  color: white;
+  text-decoration: none;
+  transition: color 1s ease;
+}
+a:hover{
+  color: #1dcaff;
+  text-decoration: none;
+  text-decoration-color: #1dcaff;
+}
+
+div{
+  margin-left: 49%;
+  margin-top: 25%;
+}
