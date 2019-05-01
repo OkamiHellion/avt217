@@ -1,0 +1,17 @@
+body{
+  margin: 300px 0 0 0;
+  background-color: black;
+}
+
+a{
+  text-align: center;
+  font-family: helvetica;
+  color: white;
+  text-decoration: none;
+  transition: color 1s ease;
+}
+a:hover{
+  color: red;
+  text-decoration: none;
+  text-decoration-color: red;
+}
